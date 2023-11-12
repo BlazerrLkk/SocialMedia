@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main page</title>
+        <style>
+            p {
+                color: #20B2AA;
+                border: 3px solid black;
+                border-radius: 15px
+            }
+        </style>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body style="background-color:black; color:white">
+
+        <h3><a href='{{  url_for("info")  }}'>brain_info</a></h3>
+    </body>
+</html>
